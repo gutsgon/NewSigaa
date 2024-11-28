@@ -1,0 +1,19 @@
+{
+  "realm": "ifs",
+  "auth-server-url": "http://localhost:8081",
+  "resource": "newsigaa-back",
+  "credentials": {
+    "secret": "NnOQwavXdNZ1W1gDLTU6lQsSa0T1mbLE"
+  },
+  "http-method-as-scope": true,
+  "paths": [
+    {
+      "path": "/swagger-ui/*",
+      "enforcement-mode": "DISABLED"
+    },
+    {
+      "path": "/v3/api-docs/*",
+      "enforcement-mode": "DISABLED"
+    }
+  ]
+}
